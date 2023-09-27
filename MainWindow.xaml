@@ -1,0 +1,30 @@
+﻿<Window x:Class="Реализация_проекта.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Реализация_проекта"
+        mc:Ignorable="d"
+        Title="Помощник Васи" Height="450" Width="800" Background="DarkKhaki">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"  Grid.ColumnSpan="6" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="24" TextWrapping="Wrap">Сможет ли Вася высунуть голову в окно с зазором в 1 см. Только ВЫ сможете помочь, введите сведения окна (высоту и ширину) и диаметр головы Васи.</TextBlock>
+        <Button Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"  FontSize="16" Click="Button_Click">Помочь Васе</Button>
+        <Button Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Width="200" Margin="12" FontSize="14" Click="Button_Click_1">Справка</Button>
+    </Grid>
+</Window>

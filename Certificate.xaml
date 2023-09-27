@@ -1,0 +1,31 @@
+﻿<Window x:Class="Реализация_проекта.Certificate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Реализация_проекта"
+        mc:Ignorable="d"
+        Title="Справочник помощника Васи" Height="450" Width="800" Background="DarkKhaki">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock FontSize="18" Margin="10" Grid.ColumnSpan="6">Разработчик приложения Пугач Савва Евгеньевич</TextBlock>
+        <TextBlock FontSize="18" Margin="10" Grid.ColumnSpan="6" Grid.Row="1">Группа ПР-330Б</TextBlock>
+        <TextBlock FontSize="18" Margin="10" Grid.ColumnSpan="6" Grid.Row="2">Версия 1.0</TextBlock>
+        <Button Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" FontSize="16" Click="Button_Click">Назад</Button>
+    </Grid>
+</Window>
